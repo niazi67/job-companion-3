@@ -1,0 +1,35 @@
+# Compiled files
+*.class
+*.pyc
+*.so
+*.o
+
+# Temporary files
+*.swp
+*.tmp
+*.bak
+
+# IDE-specific files
+.vscode/
+*.suo
+*.user
+*.sln
+
+# Build artifacts
+/build/
+/dist/
+
+# Node.js specific files
+node_modules/
+npm-debug.log
+You can customize these patterns based on your project's specific needs.
+
+3. Save the file:
+
+Save the .gitignore file.
+4. Stage and commit the file:
+
+Use the following Git commands to stage and commit the .gitignore file:
+Bash
+git add .gitignore
+git commit -m "Added .gitignore file"
